@@ -1,0 +1,27 @@
+GET http://127.0.0.1:3000/antraege
+###
+GET http://127.0.0.1:3000/teilnehmer
+###
+GET http://127.0.0.1:3000/anmeldedaten
+###
+GET http://127.0.0.1:3000/logout
+###
+POST http://127.0.0.1:3000/setanmeldedaten
+content-Type: application/json
+
+{
+    "firmen_id": 5
+}
+###
+GET http://127.0.0.1:3000/feedbacks
+###
+GET http://127.0.0.1:3000/feedbackdata
+###
+GET http://127.0.0.1:3000/karrieretagdata
+###
+PATCH http://127.0.0.1:3000/karrieretag
+Content-Type: application/json
+
+{
+    "datum": "2022-05-20"
+}

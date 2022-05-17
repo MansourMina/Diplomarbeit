@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server vom Karrieretag",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "lint": "eslint . --ext .js",
+    "prod": "node app.js"
+  },
+  "author": "MM",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "color": "^4.1.0",
+    "colors": "^1.4.0",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-session": "^1.17.2",
+    "filereader": "^0.10.3",
+    "helmet": "^4.3.1",
+    "morgan": "^1.10.0",
+    "node-mailjet": "^3.3.4",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
